@@ -3,6 +3,7 @@ import portrait from "../assets/Portrait.jpg"
 import profile from "../assets/portrait-mini.jpg"
 import { ButtonPrimary, ButtonOutline } from './Button'
 import About from './About'
+import {motion} from "framer-motion";
 
 const Hero = () => {
   return (
@@ -50,10 +51,10 @@ const Hero = () => {
             <figure className='max-w-[500px] rounded-[60px]'>
                 <img 
                 src={portrait}
-                width={600}
-                height={800} 
+                width={400}
+                height={600} 
                 alt="Pranjeet Goswami"
-                className="w-[80%] rounded-lg" 
+                className="w-[120%] rounded-lg" 
                 />
             </figure>
         </div>
