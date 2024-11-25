@@ -2,7 +2,7 @@ import React from 'react'
 import portrait from "../assets/Portrait.jpg"
 import profile from "../assets/portrait-mini.jpg"
 import { ButtonPrimary, ButtonOutline } from './Button'
-import {FaDownload} from "react-icons/fa"
+import About from './About'
 
 const Hero = () => {
   return (
