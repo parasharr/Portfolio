@@ -33,7 +33,7 @@ const Tech = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <RiReactjsLine className="text-4xl text-cyan-400"/>
+            <RiReactjsLine className="text-3xl text-cyan-400"/>
         </motion.div>
 
         <motion.div
@@ -41,7 +41,7 @@ const Tech = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <TbBrandNextjs className="text-4xl"/>
+            <TbBrandNextjs className="text-3xl"/>
         </motion.div>
 
         <motion.div
@@ -49,7 +49,7 @@ const Tech = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiMongodb className="text-4xl text-green-500"/>
+            <SiMongodb className="text-3xl text-green-500"/>
         </motion.div>
 
         <motion.div
@@ -57,7 +57,7 @@ const Tech = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaPhp className="text-4xl text-blue-950"/>
+            <FaPhp className="text-3xl text-blue-950"/>
         </motion.div>
 
         <motion.div 
@@ -65,39 +65,39 @@ const Tech = () => {
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaJsSquare className="text-4xl text-yellow-500"/>
+            <FaJsSquare className="text-3xl text-yellow-500"/>
         </motion.div>
 
         <motion.div 
-        variants={iconVariants(11)}
+        variants={iconVariants(7)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiExpress className="text-4xl text-gray-800"/>
+            <SiExpress className="text-3xl text-gray-800"/>
         </motion.div>
 
         <motion.div 
-        variants={iconVariants(13)}
+        variants={iconVariants(5)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiTailwindcss className="text-4xl text-cyan-400"/>
+            <SiTailwindcss className="text-3xl text-cyan-400"/>
         </motion.div>
 
         <motion.div 
-        variants={iconVariants(15)}
+        variants={iconVariants(3)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaGitAlt className="text-4xl text-orange-700"/>
+            <FaGitAlt className="text-3xl text-orange-700"/>
         </motion.div>
 
         <motion.div 
-        variants={iconVariants(17)}
+        variants={iconVariants(1)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaGithub className="text-4xl"/>
+            <FaGithub className="text-3xl"/>
         </motion.div>
         
       </div>
