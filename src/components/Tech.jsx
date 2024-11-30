@@ -93,7 +93,7 @@ const Tech = () => {
         </motion.div>
 
         <motion.div 
-        variants={iconVariants(1)}
+        variants={iconVariants(2.4)}
         initial="initial"
         animate="animate"
         className="rounded-2xl border-4 border-neutral-800 p-4">
