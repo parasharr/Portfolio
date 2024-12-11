@@ -1,108 +1,81 @@
-import {RiReactjsLine} from "react-icons/ri";
-import {TbBrandNextjs} from "react-icons/tb";
-import {SiMongodb} from "react-icons/si";
-import { FaPhp } from "react-icons/fa";
-import { FaJsSquare } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { FaGitAlt, FaGithub } from "react-icons/fa";
-import { motion } from "framer-motion";
-
-const iconVariants = (duration) =>({
-    initial: {y: -10},
-    animate: {
-        y: [10, -10],
-        transition: {
-            duration: duration,
-            ease: "linear",
-            repeat: Infinity,
-            repeatType: "reverse",
-        }
-    }
-});
+import React from 'react'
+import SkillCard from './SkillCard';
 
 
-const Tech = () => {
-  return (
-    <div className="border-b border-neutral-800 pb-24">
-      <h1 className="my-20 text-center text-4xl">Technologies</h1>
-      <div className="flex  flex-wrap items-center justify-center gap-4">
+const skillItem = [
+    {
+      imgSrc: '/Images/html.jpg',
+      label: 'HTML',
+      desc: 'Structuring Webpages'
+    },
+    {
+      imgSrc: '/Images/tailwind.png',
+      label: 'Tailwind CSS',
+      desc: 'Styling'
+    },
+    {
+      imgSrc: '/Images/javascript.png',
+      label: 'JavaScript',
+      desc: 'Interaction'
+    },
+    {
+      imgSrc: '/Images/git-removebg-preview.png',
+      label: 'Git',
+      desc: 'Version Control'
+    },
+    {
+      imgSrc: '/Images/mongodb.png',
+      label: 'MongoDB',
+      desc: 'DataBase'
+    },
+    {
+      imgSrc: '/Images/react.png',
+      label: 'Library',
+      desc: 'User Interfaces'
+    },
+    {
+      imgSrc: '/Images/appwrite.png',
+      label: 'Appwrite',
+      desc: 'Backend As a Service'
+    },
+    {
+      imgSrc: '/Images/express.png',
+      label: 'ExpressJs',
+      desc: 'Web Framework'
+    },
+    {
+      imgSrc: '/Images/nextjs.png',
+      label: 'NextJs',
+      desc: 'React Framework for Server-Side rendering'
+    },
+  ];
+  
 
-        <motion.div
-        variants={iconVariants(2.4)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-            <RiReactjsLine className="text-3xl text-cyan-400"/>
-        </motion.div>
 
-        <motion.div
-        variants={iconVariants(3)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-            <TbBrandNextjs className="text-3xl"/>
-        </motion.div>
-
-        <motion.div
-        variants={iconVariants(5)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiMongodb className="text-3xl text-green-500"/>
-        </motion.div>
-
-        <motion.div
-        variants={iconVariants(7)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaPhp className="text-3xl text-blue-950"/>
-        </motion.div>
-
-        <motion.div 
-        variants={iconVariants(9)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaJsSquare className="text-3xl text-yellow-500"/>
-        </motion.div>
-
-        <motion.div 
-        variants={iconVariants(7)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiExpress className="text-3xl text-gray-800"/>
-        </motion.div>
-
-        <motion.div 
-        variants={iconVariants(5)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiTailwindcss className="text-3xl text-cyan-400"/>
-        </motion.div>
-
-        <motion.div 
-        variants={iconVariants(3)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaGitAlt className="text-3xl text-orange-700"/>
-        </motion.div>
-
-        <motion.div 
-        variants={iconVariants(2.4)}
-        initial="initial"
-        animate="animate"
-        className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaGithub className="text-3xl"/>
-        </motion.div>
-        
-      </div>
-    </div>
-  )
-}
+  const Tech = () => {
+    return(
+        <section className='section'>
+            <div className='container'>
+                <h2 className='headline-2'>
+                    Essential Tools I use
+                </h2>
+                <p className='text-zinc-400 mt-3 mb-8 max-w-[50ch]'>
+                    Discover the powerful tools and technologies that I use to create exceptional, high-performing websites & applications. 
+                </p>
+                <div className=''>
+                    {
+                        skillItem.map(({imgSrc, label, desc}, key)=>(
+                            <SkillCard 
+                            imgSrc={imgSrc}
+                            label={label}
+                            desc= {desc}
+                            />
+                        ))
+                    }
+                </div>
+            </div>
+        </section>
+    )
+  }
 
 export default Tech
