@@ -6,7 +6,7 @@ const works = [
       imgSrc: '/Images/Project1.png',
       title: 'Weather.io - A Smart WeatherApp',
       tags: ['API', 'Development', 'Desiging'],
-      projectLink: 'https://weatherio-web.netlify.app/'
+      projectLink: 'https://weatherio-web.netlify.app/' 
     },
     {
       imgSrc: '/images/project-2.jpg',
