@@ -5,13 +5,13 @@ const works = [
     {
       imgSrc: '/Images/Project1.png',
       title: 'Weather.io - A Smart WeatherApp',
-      tags: ['API', 'Development', 'Desiging'],
+      tags: ['API', 'Development', 'Designing'],
       projectLink: 'https://weatherio-web.netlify.app/' 
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
-      tags: ['API', 'SPA'],
+      imgSrc: '/Images/Project2.png',
+      title: 'FashionADDA - An e-commerce website',
+      tags: ['Development', 'Designing', 'Deployment'],
       projectLink: 'https://pixstock-official.vercel.app/'
     },
     {
@@ -47,13 +47,14 @@ const Work = () => {
             <h2 className="headline-2 mb-8">
                 My Portfolio Highlights
             </h2>
-            <div className=''>
+            <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
                 {works.map(({imgSrc, title, tags, projectLink}, key)=>(
                     <ProjectCard 
                     key={key}
                     imgSrc={imgSrc}
                     title={title}
                     tags={tags}
+                    projectLink={projectLink}
                     />
                 ))}
             </div>
