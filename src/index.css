@@ -68,5 +68,5 @@ body{
 }
 
 .title-1{
-    @apply text-[22px] font-normal
+    @apply text-[16px] font-semibold
 }

@@ -5,18 +5,43 @@ import SkillCard from './SkillCard';
 const skillItem = [
     {
       imgSrc: '/Images/html.jpg',
-      label: 'HTML',
+      label: 'HTML5',
       desc: 'Structuring Webpages'
     },
     {
-      imgSrc: '/Images/tailwind.png',
-      label: 'Tailwind CSS',
+      imgSrc: '/Images/css3.png',
+      label: 'CSS3',
       desc: 'Styling'
     },
     {
       imgSrc: '/Images/javascript.png',
       label: 'JavaScript',
       desc: 'Interaction'
+    },
+    {
+      imgSrc: '/Images/react.png',
+      label: 'ReactJs',
+      desc: 'User Interfaces'
+    },
+    {
+      imgSrc: '/Images/nextjs.png',
+      label: 'NextJs',
+      desc: 'ReactJs Framework'
+    },
+    {
+      imgSrc: '/Images/tailwind.png',
+      label: 'TailwindCSS',
+      desc: 'Styling'
+    },
+    {
+      imgSrc: '/Images/typescript.png',
+      label: 'TypeScript',
+      desc: 'Scripting'
+    },
+    {
+      imgSrc: '/Images/appwrite.png',
+      label: 'Appwrite',
+      desc: 'Backend As a Service'
     },
     {
       imgSrc: '/Images/git-removebg-preview.png',
@@ -27,16 +52,6 @@ const skillItem = [
       imgSrc: '/Images/mongodb.png',
       label: 'MongoDB',
       desc: 'DataBase'
-    },
-    {
-      imgSrc: '/Images/react.png',
-      label: 'Library',
-      desc: 'User Interfaces'
-    },
-    {
-      imgSrc: '/Images/appwrite.png',
-      label: 'Appwrite',
-      desc: 'Backend As a Service'
     },
     {
       imgSrc: '/Images/express.png',

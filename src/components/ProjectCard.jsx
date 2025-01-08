@@ -4,6 +4,7 @@ const ProjectCard = ({
     imgSrc,
     title,
     tags,
+    techStack,
     projectLink,
     classes
 }) => {
@@ -19,10 +20,10 @@ const ProjectCard = ({
       </figure>
       <div className="flex items-center justify-between gap-4">
         <div>
-            <h3 className="title-1 mb-3">
+            <h4 className="title-1 mb-3">
                 {title}
-            </h3>
-
+            </h4>
+            <p className="font-semibold text-[14px] mb-4 text-gray-400">{techStack}</p>
             <div className="flex flex-wrap items-center gap-2">
                 {tags.map((label, key)=>(
                     <span 
