@@ -18,28 +18,31 @@ const works = [
     },
     {
       imgSrc: '/Images/Project3.png',
-      title: 'Virtual Vangaurd - A Zentry Clone',
+      title: 'Virtual Vanguard - A Zentry Clone',
       tags: ['Development', 'Design', 'Deployment'],
       techStack: ['ReactJs, TailwindCSS, Vercel'],
       projectLink: 'https://gaming-site-prac.vercel.app/'
     },
     {
-      imgSrc: '/images/project-4.jpg',
-      title: 'Real state website',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee-org/wealthome'
+      imgSrc: '/Images/Project4.png',
+      title: 'Apple Vision Pro ',
+      tags: ['Web-design', 'Deployment'],
+      techStack: ['HTML5, CSS3, JavaScript, Netlify'],
+      projectLink: 'https://visionprowebd.netlify.app/'
     },
     {
-      imgSrc: '/images/project-5.jpg',
-      title: 'eCommerce website',
-      tags: ['eCommerce', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+      imgSrc: '/Images/Project5.png',
+      title: 'Lazarav - AI/ML project Agency',
+      tags: ['Web-design', 'Development'],
+      techStack: ['HTML5, CSS3, JavaScript'],
+      projectLink: 'https://lazarav-clone.netlify.app/'
     },
     {
-      imgSrc: '/images/project-6.jpg',
-      title: 'vCard Personal portfolio',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      imgSrc: '/Images/Project6.png',
+      title: 'Weather.io - Weather webapp',
+      tags: ['API', 'Development', 'Design'],
+      techStack: ['HTML5, CSS3, Netlify'],
+      projectLink: 'https://weatherio-web.netlify.app/'
     },
   ];
 
@@ -47,7 +50,7 @@ const Work = () => {
   return (
     <section id='work' className='section'>
         <div className='container'>
-            <h2 className="headline-2 mb-8">
+            <h2 className="headline-2 mb-8 reveal-up">
                 My Portfolio Highlights
             </h2>
             <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
@@ -59,6 +62,7 @@ const Work = () => {
                     tags={tags}
                     techStack={techStack}
                     projectLink={projectLink}
+                    classes="reveal-up"
                     />
                 ))}
             </div>
