@@ -5,7 +5,7 @@ import {useGSAP} from '@gsap/react'
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Tech from "./components/Tech";
