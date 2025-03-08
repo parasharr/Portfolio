@@ -15,10 +15,8 @@ const Navbar = () => {
          alt="PranjeetGoswami logo" />
       </div>
       <div className='flex m-8 items-center justify-center gap-4 text-2xl'>
-        <FaLinkedin />
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+        <a href="https://www.linkedin.com/in/pranjeetgoswami/"><FaLinkedin /></a>
+        <a href="https://github.com/parasharr"><FaGithub /></a>
       </div>
     </nav>
   )
