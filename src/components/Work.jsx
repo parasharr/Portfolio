@@ -11,10 +11,10 @@ const works = [
     },
     {
       imgSrc: '/Images/Project2.png',
-      title: '.PRANJEET - A personal blogging site',
-      tags: ['Front-end', 'Backend Setup', 'Design', 'Deployment'],
-      techStack: ['ReactJs, NextJs, TailwindCSS, Appwrite, Vercel'],
-      projectLink: 'https://personal-blogs-omega.vercel.app/'
+      title: 'Shop-Karo - An admin dashboard for Ecommerce',
+      tags: ['Front-end', 'Design', 'Deployment'],
+      techStack: ['ReactJs, TailwindCSS, SyncFusion, Vercel'],
+      projectLink: 'https://admin-dashboard-seven-fawn-36.vercel.app/'
     },
     {
       imgSrc: '/Images/Project3.png',
@@ -39,10 +39,10 @@ const works = [
     },
     {
       imgSrc: '/Images/Project6.png',
-      title: 'Weather.io - Weather webapp',
-      tags: ['API', 'Development', 'Design'],
-      techStack: ['HTML5, CSS3, Netlify'],
-      projectLink: 'https://weatherio-web.netlify.app/'
+      title: 'Fizzi - Live Gutsy',
+      tags: ['Design', 'Webflow', 'Development', 'Deploy'],
+      techStack: ['ThreeJs, ReactJs, NextJs, TypeScript, TailwindCSS, Vercel'],
+      projectLink: 'https://fizzi-demo.vercel.app/'
     },
   ];
 

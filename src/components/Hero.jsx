@@ -34,10 +34,12 @@ const Hero = () => {
             Building Scalable Modern Websites for the Future
             </h2>
             <div className='flex items-center gap-3'>
+                <a href="https://pranjeetgoswami.tiiny.site/">
                 <ButtonPrimary 
                 label="Download CV"
                 icon="download"
                 />
+                </a>
                 
 
                 <ButtonOutline 
